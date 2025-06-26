@@ -15,6 +15,6 @@ public class MyController {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello World";
+        return "Hello World, From Jersey Restful Application";
     }
 }
